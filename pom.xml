@@ -32,7 +32,12 @@
             <version>8.0.27</version>
         </dependency>
 
-        <!-- not redis version 2.1.0 -->
+        <!-- not redis version 2.1.0
+
+            maven导入的包需要注意几个点.版本严格要求跟我的保持一致, 如果出现插件导入失败
+            请先导入magic-api-spring-boot-starter  把其他的插件注释掉, 否则会出现版本不匹配的问题
+
+         -->
         <dependency>
             <groupId>org.ssssssss</groupId>
             <artifactId>magic-api-spring-boot-starter</artifactId>
