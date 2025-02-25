@@ -36,21 +36,39 @@
             <artifactId>magic-api-spring-boot-starter</artifactId>
             <version>2.1.0</version>
         </dependency>
+        <!--       redis -->
 <!--        <dependency>-->
 <!--            <groupId>org.ssssssss</groupId>-->
-<!--            <artifactId>magic-api-plugin-swagger</artifactId>-->
-<!--            <version>2.0.2</version>-->
+<!--            <artifactId>magic-api-plugin-redis</artifactId>-->
+<!--            <version>2.1.0</version>-->
 <!--        </dependency>-->
+
+<!--       swagger -->
+        <dependency>
+            <groupId>org.ssssssss</groupId>
+            <artifactId>magic-api-plugin-swagger</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+
+
+
+<!--        es-->
 <!--        <dependency>-->
-<!--            <groupId>io.springfox</groupId>-->
-<!--            <artifactId>springfox-swagger2</artifactId>-->
-<!--            <version>2.9.2</version>-->
+<!--            <groupId>org.ssssssss</groupId>-->
+<!--            <artifactId>magic-api-plugin-elasticsearch</artifactId>-->
+<!--            <version>2.1.1</version>-->
 <!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.springfox</groupId>-->
-<!--            <artifactId>springfox-swagger-ui</artifactId>-->
-<!--            <version>2.9.2</version>-->
-<!--        </dependency>-->
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
