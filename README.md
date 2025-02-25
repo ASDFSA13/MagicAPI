@@ -23,5 +23,11 @@ CREATE TABLE `magic_backup_record_v2` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
 ```
 
-### mock数据 例程所需数据
-magic-api.sql
+### 案例程序,仅仅在测试内使用
+上传 magic-api.zip
+上传 magic-function.zip
+
+### mock数据 使用例程所需导入下面sql
+magic-mock-example.sql
+
+
