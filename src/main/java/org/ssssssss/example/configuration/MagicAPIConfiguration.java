@@ -30,7 +30,7 @@ public class MagicAPIConfiguration {
 	public MagicDynamicDataSource magicDynamicDataSource(DataSource dataSource) {
 		MagicDynamicDataSource dynamicDataSource = new MagicDynamicDataSource();
 		dynamicDataSource.setDefault(dataSource); // 设置默认数据源
-		dynamicDataSource.add("slave", dataSource);
+		dynamicDataSource.add("default", dataSource);
 		return dynamicDataSource;
 	}
 

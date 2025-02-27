@@ -43,21 +43,22 @@
             <artifactId>magic-api-spring-boot-starter</artifactId>
             <version>2.1.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.ssssssss</groupId>
-            <artifactId>magic-api-plugin-task</artifactId>
-            <version>2.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.ssssssss</groupId>
-            <artifactId>magic-api-plugin-redis</artifactId>
-            <version>2.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.ssssssss</groupId>
-            <artifactId>magic-api-plugin-elasticsearch</artifactId>
-            <version>2.1.1</version>
-        </dependency>
+            <!-- 暂时不需要第三方 -->
+<!--        <dependency>-->
+<!--            <groupId>org.ssssssss</groupId>-->
+<!--            <artifactId>magic-api-plugin-task</artifactId>-->
+<!--            <version>2.1.1</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.ssssssss</groupId>-->
+<!--            <artifactId>magic-api-plugin-redis</artifactId>-->
+<!--            <version>2.1.1</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.ssssssss</groupId>-->
+<!--            <artifactId>magic-api-plugin-elasticsearch</artifactId>-->
+<!--            <version>2.1.1</version>-->
+<!--        </dependency>-->
 
 <!--       swagger -->
         <dependency>
